@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Bases_de_datos_LA_LIBRERIA.UserControls
+{
+    public partial class UC_int_libros : UserControl
+    {
+        public UC_int_libros()
+        {
+            InitializeComponent();
+        }
+    }
+}

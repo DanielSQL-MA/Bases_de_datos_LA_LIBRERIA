@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bases_de_datos_LA_LIBRERIA", "Bases_de_datos_LA_LIBRERIA\Bases_de_datos_LA_LIBRERIA.csproj", "{4F43B174-58F3-4595-8ECC-2F722AF4405B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F43B174-58F3-4595-8ECC-2F722AF4405B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F43B174-58F3-4595-8ECC-2F722AF4405B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F43B174-58F3-4595-8ECC-2F722AF4405B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F43B174-58F3-4595-8ECC-2F722AF4405B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C37BC50D-AFA4-45C3-8BD0-6592274A9AD3}
+	EndGlobalSection
+EndGlobal
