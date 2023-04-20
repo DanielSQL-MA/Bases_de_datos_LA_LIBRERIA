@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bases_de_datos_LA_LIBRERIA.UserControls
+namespace Bases_de_datos_LA_LIBRERIA.UC_Update
 {
-    public partial class UC_int_libros : UserControl
+    public partial class UC_Update_Autor : UserControl
     {
-        public UC_int_libros()
+        public UC_Update_Autor()
         {
             InitializeComponent();
         }

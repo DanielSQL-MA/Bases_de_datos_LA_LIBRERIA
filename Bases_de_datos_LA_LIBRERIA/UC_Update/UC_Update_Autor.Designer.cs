@@ -1,6 +1,6 @@
-﻿namespace Bases_de_datos_LA_LIBRERIA.UserControls
+﻿namespace Bases_de_datos_LA_LIBRERIA.UC_Update
 {
-    partial class UC_int_genero
+    partial class UC_Update_Autor
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -30,12 +30,12 @@
         {
             SuspendLayout();
             // 
-            // UC_int_genero
+            // UC_Update_Autor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Transparent;
-            Name = "UC_int_genero";
+            BackColor = SystemColors.ButtonShadow;
+            Name = "UC_Update_Autor";
             Size = new Size(799, 657);
             ResumeLayout(false);
         }

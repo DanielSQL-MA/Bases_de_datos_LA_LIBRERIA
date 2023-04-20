@@ -17,17 +17,17 @@ namespace Bases_de_datos_LA_LIBRERIA.UserControls
         {
             InitializeComponent();
         }
+        Conexion cn = new Conexion();
 
         private void UC_autor_Load(object sender, EventArgs e)
         {
-
-            SqlConnection sqlcon = new SqlConnection("Data Source=DMLAP\\SQLEXPRESS; Initial Catalog=libreria;User ID=pru;Password=redes_01");
-            sqlcon.Open();
-            SqlCommand cmd = new SqlCommand("SELECT * FROM dbo.autor;", sqlcon);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
+           
+            SqlDataAdapter da = new SqlDataAdapter("SP_MOSTRARAUTORES", cn.LeerCadena());
+            da.SelectCommand.CommandType = CommandType.StoredProcedure;
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+
         }
     }
 }
